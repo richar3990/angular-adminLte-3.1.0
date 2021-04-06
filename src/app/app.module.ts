@@ -12,6 +12,7 @@ import { SettigComponent } from './components/adminlte/settig/settig.component';
 import { LoginComponent } from './components/login/login.component';
 import { SignUpComponent } from './components/sign-up/sign-up.component';
 import { InicioComponent } from './components/inicio/inicio.component';
+import { UsersComponent } from './components/users/users.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { InicioComponent } from './components/inicio/inicio.component';
     SettigComponent,
     LoginComponent,
     SignUpComponent,
-    InicioComponent
+    InicioComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,

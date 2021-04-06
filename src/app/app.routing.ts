@@ -9,11 +9,13 @@ import {AppComponent} from './app.component';
 import {LoginComponent} from './components/login/login.component';
 import {SignUpComponent} from './components/sign-up/sign-up.component';
 import {InicioComponent} from './components/inicio/inicio.component';
+import {UsersComponent} from './components/users/users.component';
 
 const appRoutes: Routes = [
   {path: 'login', component: LoginComponent},
   {path: 'inicio', component: InicioComponent},
-  {path: 'registro', component: SignUpComponent}
+  {path: 'registro', component: SignUpComponent},
+  {path: 'abm-usuarios', component: UsersComponent}
 ];
 export const appRoutingProviders: any [] = [];
 export const routing: ModuleWithProviders<any> = RouterModule.forRoot(appRoutes);
